@@ -1,0 +1,24 @@
+/* Set background color for nav bar */
+nav .navbar-brand {
+    background-color: #371ED1;
+    overflow: hidden;
+}
+
+/* Link styling in nav bar */
+.topnav a {
+    float: none;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #1ed191;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #1eb8d1;
+    color: #911ed1;
+}
